@@ -1,0 +1,27 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "Family tree is a simple website to manage a family tree.  \r I'm using it as a way to learn some web dev as well as postgresql.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently -n FE,BE -c green,cyan \"npm:frontend\" \"npm:backend\"",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psycic101/family-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Psycic101/family-tree/issues"
+  },
+  "homepage": "https://github.com/Psycic101/family-tree#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
