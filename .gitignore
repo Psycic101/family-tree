@@ -21,6 +21,10 @@ lerna-debug.log*
 # SSL certificates
 certs/*
 
+# Solution
+node_modules
+dist
+
 # backend files
 backend/node_modules
 backend/dist
