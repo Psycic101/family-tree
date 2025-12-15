@@ -24,7 +24,7 @@ export default function Login() {
             const data = await response.json();
 
             if (response.ok) {
-                navigate('/dashboard');
+                navigate('/family-tree');
             } else {
                 setMessage(data.error || 'Login failed');
             }

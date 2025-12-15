@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './login';
 import Register from './register';
-import Dashboard from './dashboard';
+import FamilyTree from './family-tree';
 import './app.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/family-tree" element={<FamilyTree />} />
           <Route path="/" element={<Navigate to="/login" replace />} />
         </Routes>
       </div>
