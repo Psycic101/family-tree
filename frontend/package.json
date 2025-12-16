@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "babel-plugin-react-compiler": "^1.0.0",
+    "cytoscape": "^3.33.1",
     "dotenv": "^17.2.3",
     "react": "^19.2.0",
+    "react-cytoscapejs": "^2.0.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1"
   },
@@ -21,6 +23,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
+    "@types/react-cytoscapejs": "^1.2.6",
     "@types/react-dom": "^19.2.3",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^5.1.1",
